@@ -25,6 +25,6 @@ client.on("message", async message => {
 	}
   }
 })
-client.on.listen(process.env.PORT || 5000)
+
 
 client.login(process.env.token);
