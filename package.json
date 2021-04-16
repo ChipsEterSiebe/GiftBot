@@ -7,7 +7,7 @@
     "node": "15.x"
   },
   "scripts": {
-    "start": "nodemon",
+    "start": "node index.js",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
