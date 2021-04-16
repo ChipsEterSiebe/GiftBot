@@ -1,25 +1,21 @@
 {
-  "name": "GiftBot",
+  "name": "giftbot",
   "version": "1.0.0",
-  "description": "This is a bot to get discord Nitro Free, you only need patience",
+  "description": "Generates nitro.",
   "main": "index.js",
-  "engines": {
-    "node": "15.x"
-  },
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChipsEterSiebe/GiftBot.git"
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Siebe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.8"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChipsEterSiebe/GiftBot/issues"
-  },
-  "homepage": "https://github.com/ChipsEterSiebe/GiftBot#readme"
+  "engines": {
+    "node": "15.x"
+  }
 }
