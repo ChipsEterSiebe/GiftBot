@@ -14,7 +14,8 @@
   "author": "Siebe",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.9.8"
+    "express": "^4.9.8",
+    "discord.js": "^11.5.1"
   },
   "engines": {
     "node": "15.8.0",
