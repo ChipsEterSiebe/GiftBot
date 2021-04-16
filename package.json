@@ -4,7 +4,7 @@
   "description": "This is a bot to get discord Nitro Free, you only need patience",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
+    "start": "nodemon",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
