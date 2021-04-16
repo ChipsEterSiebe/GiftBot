@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "This is a bot to get discord Nitro Free, you only need patience",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "nodemon",
+    "start": "node .",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
