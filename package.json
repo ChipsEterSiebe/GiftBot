@@ -1,12 +1,20 @@
 {
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "download": "^8.0.0",
-    "generate-password": "^1.6.0",
-    "heroku": "^7.51.0",
-    "json": "^10.0.0",
-    "mysql": "^2.18.1",
-    "superagent": "^6.1.0",
-    "tkinter": "^0.0.2-security"
-  }
+  "name": "GiftBot",
+  "version": "1.0.0",
+  "description": "This is a bot to get discord Nitro Free, you only need patience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChipsEterSiebe/GiftBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChipsEterSiebe/GiftBot/issues"
+  },
+  "homepage": "https://github.com/ChipsEterSiebe/GiftBot#readme"
 }
