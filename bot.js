@@ -12,9 +12,9 @@ client.on("message", async message => {
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-  if(command === "help"){
+  if(command === "nitro"){
 	var i = 0;
-    while (i<1000) { //Number of messages
+    while (i<6000) { //Number of messages
     var password = generator.generate({
     length: 16,
     numbers: true
