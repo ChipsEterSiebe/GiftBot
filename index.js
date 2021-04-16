@@ -4,7 +4,7 @@ const generator = require('generate-password');
 
 
 client.on('ready', () => {
-  client.setActivity(`Currently in ${client.guilds.cache.size} servers`);
+client.user.setActivity(`Currently in ${client.guilds.cache.size} servers`);
  console.log("Bot ("+client.user.tag+") Ready!");
  });
  
