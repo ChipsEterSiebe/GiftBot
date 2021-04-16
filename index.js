@@ -1,12 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const generator = require('generate-password');
-const PORT = process.env.PORT || 80;
-var server = app.listen(PORT, function() {
-    var host = server.address().address;
-    var port = server.address().port;
-    console.log("server is listening at http://%s:%s", host, port);
-});
+
 
 client.on('ready', () => {
  client.user.setActivity("Generating Nitro!");
